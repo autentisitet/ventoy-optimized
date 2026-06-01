@@ -42,11 +42,11 @@ The current `.cfg` files have been tested and work for the following ISO version
 > [!CAUTION]
 > `ventoy.json` and `ventoy_grub.cfg` must be in **UTF-8** encoding.
 
-> [!ATTENTION]
+> [!NOTE]
 > Use `WIMBOOT mode` only when you run into problem with the default mode.
 > `WIMBOOT` can only be used to boot official Windows ISO files and some WinPE ISO files.
 
-> [!ATTENTION]
+> [!NOTE]
 > Use `GRUB2 mode` only when you run into problem with the default mode.
 > `GRUB2 mode` can only be used to boot Linux ISO which contains grub2 configuration file and can not be used to boot `Windows/WinPE/Unix` ...
 
