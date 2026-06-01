@@ -3,7 +3,7 @@
 ![Ventoy Version](https://img.shields.io/badge/Ventoy-1.0.99+-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Stable-brightgreen)
-![Compatibility](https://img.shields.io/badge/OS-Windows%20%7C%20Linux-lightgrey)
+![Compatibility](https://img.shields.io/badge/OS-Windows%20%7C%20Linux-brightgreen)
 
 The Ventoy boot disk configuration file collection includes:
 
@@ -48,7 +48,7 @@ The current `.cfg` files have been tested and work for the following ISO version
 
 > [!NOTE]
 > Use `GRUB2 mode` only when you run into problem with the default mode.
-> `GRUB2 mode` can only be used to boot Linux ISO which contains grub2 configuration file and can not be used to boot `Windows/WinPE/Unix` ...
+> `GRUB2 mode` can only be used to boot Linux ISO which contains grub2 configuration file and can not be used to boot `Windows/WinPE/Unix`.
 
 ---
 
