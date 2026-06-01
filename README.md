@@ -16,6 +16,7 @@ The Ventoy boot disk configuration file collection includes:
 ## Table of Contents
 
 - [Supported ISO Versions](#supported-iso-versions)
+- [Installation](#installation)
 - [Important Notices](#important-notices)
 - [`ventoy.json` Example](#ventoy-json)
 - [Reference](#reference)
@@ -34,6 +35,16 @@ The current `.cfg` files have been tested and work for the following ISO version
 | `vmd-nvidia-aspm-off.cfg` | 43, 44 | 22.04.5, 24.04.4 |
 
 > **Note**: Other versions may require modification of the ISO filename and `CDLABEL` parameters.
+
+---
+
+## Installation <a id="installation"></a>
+
+- **Locate the Ventoy data partition**
+   After installing Ventoy to your USB drive, the first partition (usually labeled `Ventoy`) is where you place ISO files and configuration.
+
+- **Copy configuration files**
+   Copy the `ventoy` folder and all its contents from this repository to the root of the Ventoy partition.
 
 ---
 
